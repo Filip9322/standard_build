@@ -1,0 +1,20 @@
+@import './normalize.css'
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import "nib"
+
+// MIXINS
+test(color = red, grosor = 1px)
+	border grosor solid color
+	box-sizing border-box
+
+body
+	font-family 'Open Sans', sans-serif
+	font-size 16px
+	
+.Layout
+	background-color #F3F3F3
+	display flex
+	flex-direction column
+	justify-content center
+	align-items center
+	min-height 100vh
